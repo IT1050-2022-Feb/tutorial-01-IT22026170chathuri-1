@@ -4,6 +4,11 @@
 
 #include <stdio.h>
 
+/* Exercise 1 - Calculations
+
+   Write a C program to input marks of two subjects. Calculate and print the average of the two marks. */
+
+
 int main() {
    int mark1,mark2;avg,total;
  
@@ -17,6 +22,12 @@ int main() {
    avg = total/2;
    cout<<"Enter total number:",total<<endl;
    cout<<"The average is :",avg<<endl;
+   
+   
+  
+  return 0;
+}
+
    
    
   
