@@ -8,21 +8,22 @@
 
    Write a C program to input marks of two subjects. Calculate and print the average of the two marks. */
 
-
 int main() {
-   int mark1,mark2;avg,total;
- 
-   cout<<"Enter first subject marks:"<<endl;
-   cin>>mark1;
-   
-   cout<<"Enter second subject marks:"<<endl;
-   cin>>mark2;
-   
-   total = mark1+mark2;
-   avg = total/2;
-   cout<<"Enter total number:",total<<endl;
-   cout<<"The average is :",avg<<endl;
-   
+
+  using namespace std;
+
+  float distance;
+
+  cout << "Enter distance the van has travelled :";
+
+  cin >> distance;
+
+  if (distance <= 30) {
+    cout << "Amount : " << distance * 50;
+  } else {
+    cout << "Amount : " << (30 * 50) + (distance - 30) * 40;
+  }
+
    
   
   return 0;
@@ -31,6 +32,4 @@ int main() {
    
    
   
-  return 0;
-}
 
